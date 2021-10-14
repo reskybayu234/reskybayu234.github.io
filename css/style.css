@@ -1,0 +1,113 @@
+.nav-link {
+  margin-left: 20px;
+  font-family: "ZCOOL KuaiLe", cursive;
+  text-align: center;
+}
+
+.gambar img {
+  width: 250px;
+  margin-top: 50px;
+  border-radius: 50%;
+}
+
+.jobAndHobbies {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gambar {
+  text-align: center;
+}
+
+.container-footer {
+  text-align: center;
+}
+
+.nav-link {
+  margin-left: 0px;
+  font-family: "ZCOOL KuaiLe", cursive;
+}
+
+.isiProfilSingkat {
+  font-family: "Scheherazade New", serif;
+}
+
+.isiPengalaman {
+  font-family: "Scheherazade New", serif;
+  text-align: center;
+}
+
+.headerTabel {
+  font-family: "Scheherazade New", serif;
+}
+
+/* DESKTOP */
+
+@media (min-width: 992px) {
+  .nav-link {
+    margin-left: 20px;
+    font-family: "ZCOOL KuaiLe", cursive;
+  }
+
+  /* body {
+    background-image: url(../img/hh.jpeg);
+  } */
+
+  .jobAndHobbies {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Playfair Display", serif;
+  }
+
+  .gambar img {
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 50%;
+  }
+
+  .imgCer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gambar {
+    text-align: center;
+  }
+
+  .navbar .navbar-collapse {
+    margin-left: 350px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #f70174;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .tableProfil {
+    border: 1px solid black;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .cvBab p {
+    font-family: "Birthstone", cursive;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 80px;
+  }
+}
